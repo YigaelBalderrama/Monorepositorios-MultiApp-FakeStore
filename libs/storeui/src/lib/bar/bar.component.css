@@ -1,16 +1,12 @@
-
 mat-toolbar {
     color: white;
     background-color: blueviolet;
-    position: absolute;
-    float: inline-start;
   }
   
   .barcontainer {
     justify-content: space-around;
     align-items: flex-end;
     flex-wrap: nowrap;
-  
   }
   .formbar {
     min-width: 100px;
