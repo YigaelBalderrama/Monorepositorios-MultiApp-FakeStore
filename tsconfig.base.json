@@ -15,7 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@fake-store/storeui": ["libs/storeui/src/index.ts"]
+      "@fake-store/data-access": ["libs/data-access/src/index.ts"],
+      "@fake-store/storeui": ["libs/storeui/src/index.ts"],
+      "@fake-store/utlity": ["libs/utlity/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

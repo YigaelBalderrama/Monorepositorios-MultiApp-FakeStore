@@ -1,6 +1,7 @@
 mat-toolbar {
     color: white;
     background-color: blueviolet;
+    width: inherit;
   }
   
   .barcontainer {

@@ -1,0 +1,33 @@
+  .card{
+    min-width: 100%;
+    max-width: 300px;
+    min-height: 200px;
+    align-items: stretch;
+    align-content: stretch;
+    display: flex;
+  }
+  .interelement{
+    align-items: stretch;
+    align-content: stretch;
+  }
+  .header-image{
+    background-image: url("https://fakestoreapi.com/icons/logo.png");
+    background-size: contain;
+  }
+  .buttons{
+    justify-content: space-between;
+  }
+  button.mat-primary{
+    background-color: rgb(182, 55, 175);
+    color: #fff;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+::ng-deep .popUp{
+  color: blueviolet;
+  top: 40%;
+}
