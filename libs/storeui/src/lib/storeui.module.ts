@@ -8,21 +8,26 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { MatCardModule } from '@angular/material/card';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DataAccessModule } from '@fake-store/data-access';
+import { LoginFormComponent } from './login-form/login-form.component';
+import {MatInputModule} from '@angular/material/input';
+import { FormsModule } from '@angular/forms'; 
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 @NgModule({
   imports: [
-    CommonModule, 
+    CommonModule,
     MatToolbarModule,
     MatSnackBarModule,
     MatButtonModule,
     MatCardModule,
     BrowserAnimationsModule,
-    DataAccessModule
+    DataAccessModule,
+    MatInputModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
-  declarations: [
-    BarComponent, 
-    ListOfProductsComponent
-  ],
+  declarations: [BarComponent, ListOfProductsComponent, LoginFormComponent],
   exports: [
     BarComponent,
     ListOfProductsComponent,
@@ -30,7 +35,10 @@ import { DataAccessModule } from '@fake-store/data-access';
     MatSnackBarModule,
     MatButtonModule,
     MatCardModule,
-    DataAccessModule
+    DataAccessModule,
+    MatInputModule,
+    ReactiveFormsModule,
+    FormsModule
   ],
 })
 export class StoreuiModule {}

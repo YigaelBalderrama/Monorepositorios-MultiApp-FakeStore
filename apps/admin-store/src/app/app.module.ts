@@ -9,20 +9,18 @@ import { appRoutes } from './app.routes';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NxWelcomeComponent
-  ],
-  imports: [
-    BrowserModule,
-    StoreuiModule,
-    RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
-    NgbModule,
-  ],
-  exports: [
-    
-  ],
-  providers: [],
-  bootstrap: [AppComponent],
+    declarations: [
+        AppComponent,
+        NxWelcomeComponent
+    ],
+    exports: [],
+    providers: [],
+    bootstrap: [AppComponent],
+    imports: [
+        BrowserModule,
+        StoreuiModule,
+        RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
+        NgbModule
+    ]
 })
 export class AppModule {}
