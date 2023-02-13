@@ -20,11 +20,6 @@ export class ListOfProductsComponent implements OnInit {
   ) {}
   ngOnInit(): void {
     this.getProducts();
-    this._snackBar.open('Message archived',"OK",{
-      verticalPosition:'bottom',
-      horizontalPosition:'left',
-      duration: 2000
-    });
   }
   public getProducts() {
     this.RestService.searchProducts('products')

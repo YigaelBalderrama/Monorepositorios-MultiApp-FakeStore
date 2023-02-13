@@ -28,6 +28,7 @@
     margin: 0;
 }
 ::ng-deep .popUp{
-  color: #802c6e;
+  color: #802c6e !important;
+  background-color:#05fa4e !important;
   top: 40%;
 }
